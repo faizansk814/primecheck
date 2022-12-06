@@ -1,18 +1,17 @@
 function primecheck(num){
-let count=0
+let factor=0
 for(let i=1;i<=num;i++){
-  if(num%i==0){
-    count++
+  if(num%i==1){
+    factor++
 }
 }
-if(count==2){
+if(factor==2){
   return true;
 }else{
   return false;
 }
-
 let result=primecheck(13)
 if(result==true){
-   console.log("prime")
+   console.log("its a prime number")
 }else{
-   console.log("Not prime")
+   console.log("Not a prime")
