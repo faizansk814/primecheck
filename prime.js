@@ -5,12 +5,11 @@ for(let i=1;i<=num;i++){
     factor++
 }
 }
-if(factor==0){
+if(factor==2){
   return true;
 }else{
   return false;
 }
-
 let result=primecheck(13)
 if(result==true){
    console.log("its a prime number")
